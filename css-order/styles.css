@@ -1,0 +1,77 @@
+.card-img-top {
+    width: 100%;
+    height: 40%;
+}
+.card-title{
+    height:1%;
+}
+.card-footer{
+    height: 10%;
+}
+
+/* .shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+} */
+
+.shop-item-price {
+    flex-grow: 1;
+    color: #333;
+}
+
+  #hi{
+    display:none;
+  }
+  #bye{
+    display:none;
+  }
+  #ssup{
+    display;
+  }
+  #hello{
+    display:none;
+  }
+  .container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container #content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+  font-size:2.0em
+}
+#navbar{
+  background-color:#F4A460 ;
+}
+.active{
+  background-color: #FFE4C4;
+}
+body{
+background-color: white;
+}
+a{
+  color:white;
+}
+.cart-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.cart-total-title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: black;
+    margin-right: 20px;
+}
+.cart-total-price {
+    color: #333;
+    font-size: 1.1em;
+}
